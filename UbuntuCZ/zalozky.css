@@ -1,0 +1,277 @@
+/*body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}*/
+
+#sfondobarra {
+	background: url('../images/sfondo.png') bottom left repeat-x;
+	background-position: 0px 0px;
+}
+
+#barra {
+	position:relative;
+	background: url('../images/logo.png') no-repeat transparent;
+	border-style: solid;
+	border-width: 0;
+	color: #dbba75;
+	height: 37px;
+}
+
+#header .container-inline div, .container-inline label {
+display: inline;
+}
+
+#header {
+border-radius: 6px 6px 0px 0px;
+-moz-border-radius: 6px 6px 0px 0px;
+-webkit-border-radius: 6px 6px 0px 0px;
+box-shadow: #BBBBBB 0px 0px 2px;
+-moz-box-shadow: #BBBBBB 0px 0px 2px;
+-webkit-box-shadow: #BBBBBB 0px 0px 2px;
+background: #DD4814 url(http://www.ubuntu.cz/sites/all/themes/udtheme-2010/images/header_bg.gif) top left repeat-x;
+height: 50px;
+margin: 0 1px;
+padding: 4px;
+position: relative;
+}
+
+#header ul.nice-menu li ul {
+  margin-top: 34px;
+  margin-left: 0px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #F07B55;
+}
+#header ul.nice-menu li ul li {
+  background-color: #E45813;
+  height: 20px;
+  width: auto;
+  min-width: 60px;
+}
+#header ul.nice-menu li ul li a {
+  height: 20px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#header ul.nice-menu li ul li a:hover {
+  background-color: #ED6521;
+}
+
+#header li {
+float: left;
+border-left: 1px solid #DB4714;
+display: block;
+padding: 0 4px 0;
+margin: 0;
+}
+
+#header ul.links {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+#header ul.links.inline {
+  display: inline;
+}
+#header ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+}
+#header li a {
+font-family: "ubuntu","bitstream vera sans","dejavu sans",verdana,sans-serif;
+text-decoration: none;
+color: white;
+height: 35px;
+padding: 15px 9px 0 9px;
+font-size: 14px;
+display: block;
+margin: 0 !important;
+}
+
+#header .block {
+float: right;
+margin: 15px 15px 0;
+}
+
+#header ul {
+margin-left: 0px;
+}
+
+#header ul.links {
+margin: 0;
+padding: 0;
+}
+
+#header #search {
+border: 0px solid #B73F00;
+background: white;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: inset #BBBBBB 2px 2px 2px;
+-moz-box-shadow: inset #BBBBBB 2px 2px 2px;
+-webkit-box-shadow: inset #BBBBBB 2px 2px 2px;
+border-image: initial;
+}
+
+#header #search * {
+margin: 0;
+padding: 0;
+color: #E24E00;
+font-size: 10px !important;
+font-weight: bold;
+border: none;
+background-color: transparent;
+border-image: initial;
+}
+
+#header #search .form-text {
+padding: 2px 3px;
+}
+#header #search .form-submit {
+cursor: pointer;
+padding-left: 5px;
+}
+
+#header #search label {
+display: none;
+}
+
+#header inline div, .container-inline label {
+display: inline;
+}
+#header li a.active, #header li a:hover {
+background: #D14413;
+}
+#logo {
+float: right;
+margin: 7px 8px 0;
+}
+
+
+#header * {
+font-family: "Ubuntu","bitstream vera sans","dejavu sans",verdana,sans-serif;
+color: #111;
+clear: none;
+}
+
+#header input[type="button"], #header input[type="submit"], #header button {
+padding: 1px 6px;
+}
+
+#header input[type="button"], #header input[type="submit"], #header button {
+-webkit-box-align: center;
+text-align: center;
+cursor: default;
+color: buttontext;
+padding: 2px 6px 3px;
+border: 2px outset buttonface;
+border-image: initial;
+background-color: buttonface;
+box-sizing: border-box;
+}
+
+#header input[type="button"], #header input[type="submit"], #header input[type="reset"] {
+-webkit-appearance: push-button;
+white-space: pre;
+}
+
+#header input, #header input[type="password"], #header input[type="search"], #header isindex {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px inset;
+border-image: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
+#header input, #header textarea, #header keygen, #header select, #header button, #header isindex {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: -webkit-auto;
+}
+#pulsante {
+	position:absolute;
+	bottom:0px;
+	right:10px;
+}
+		  
+#pulsante ul {
+/*	display:inline; */
+	margin:0;
+	padding:10px 10px 0 1px;
+	list-style:none;
+}
+		  
+#pulsante li {
+	display:inline;
+	float:left;
+	background:url("http://forum.ubuntu-it.org/css/tab_off_ns1.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 5px;
+}
+
+#pulsante a {
+	float:left;
+	display:block;
+	background:url("http://forum.ubuntu-it.org/css/tab_off_ns2.gif") no-repeat right top;
+	padding:10px 15px 3px 8px;
+/*	font-size:105%; */
+	font: 9px Verdana, Arial, Helvetica, Sans-Serif;
+	text-decoration:none;
+	font-weight:bold;
+	margin:0;
+	color:#444;
+}
+
+#pulsante a {
+	float:none;
+}
+
+#pulsante a:hover {
+	color:#333;
+}
+
+#pulsante li:hover, #pulsante li:hover a {
+	background-position:0% -163px;
+	color:#000;
+}
+
+#pulsante li:hover a {
+	background-position:100% -163px;
+	color:#000;
+}
+
+#pulsante #current {
+	background:url("http://forum.ubuntu-it.org/css/tab_on_ns1.gif") no-repeat left top;		  
+}
+
+#pulsante #current a {
+	background:url("http://forum.ubuntu-it.org/css/tab_on_ns2.gif") no-repeat right top;		  
+	color:#000;
+	padding-bottom:4px;
+}
